@@ -14,8 +14,14 @@ SECRET_KEY = "django-insecure-9y!5n^g2w102b9z^c6dw)x-nda^*f80y=qvx#qyfmm&a-if^^!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = [
+    "gk-quiz-az6y.onrender.com",
+    "gkquiz.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
